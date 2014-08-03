@@ -126,7 +126,8 @@
       { "prompt": "text", "desc": "What platforms did you experience this in (e.g. Win 7; Mac OS 10.7)?", "id": "platforms" },
       { "prompt": "text", "desc": "Are there any other details you would like to provide?",                                         "id": "details" },
       { "open": "{{project.repo}}/issues/new?title={{title}}&body=**Steps to reproduce:**\n> {{reproduce}}\n\n**What was expected:**\n> {{expected}}\n\n**What Happened:**\n> {{actual}}\n\n**Platforms experienced on:**\n> {{platforms}}\n\n**Other details:**\n> {{details}}" }
-    ]
+    ],
+    "finished": "Thanks for submitting a bug report! One of our contributors will address it as soon as possible."
   },
 
   "request": {
@@ -137,6 +138,7 @@
       { "prompt": "text", "desc": "Is there any existing documentation or related specifications?", "id": "docs" },
       { "prompt": "text", "desc": "Are there any existing examples?", "id": "examples" },
       { "open": "{{project.urls.repo_ui}}/issues/new?title={{ title }}&body=**Describe the feature/enhancement:**\n> {{ describe }}\n\n**Existing docs/specs:**\n> {{ docs }}\n\n**Existing examples:**\n> {{ examples }}" }
-    ]
+    ],
+    "finished": "Thanks for submitting a feature request! One of our contributors will address it as soon as possible."
   }
 }
