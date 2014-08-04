@@ -133,7 +133,7 @@
   "request": {
     "desc": "Submit a feature/enhancement request",
     "steps": [
-      { "prompt": "text", "desc": "Title your request", "id": "title" },
+      { "prompt": "text", "desc": "Create a title that is descriptive of the enhancement", "id": "title" },
       { "prompt": "text", "desc": "Describe the feature/enhancement (be as detailed as possible so it's clear who, why, and how it would be used)", "id": "describe" },
       { "prompt": "text", "desc": "Is there any existing documentation or related specifications?", "id": "docs" },
       { "prompt": "text", "desc": "Are there any existing examples?", "id": "examples" },
